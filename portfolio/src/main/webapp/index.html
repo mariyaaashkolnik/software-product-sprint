@@ -2,24 +2,82 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Masha Shkolnik</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+
+    
   </head>
+
+
   <body>
-    <div id="content">
-      <h1>Masha's Portfolio</h1>
-      <p> My name is Masha, I'm a young programmer from 
-      Belarus. </p>
-      <p> Welcome to my portfolio page! </p>
-      <p> Click the button below if you dont't know what to do right now:</p>
-      <button onclick="addRandomGreeting()">*click*</button>
+    <body onload="loadPage()">
+
+    <div id="left">
+        <div class="left1">
+        <a href="#header">About me</a>
+      </div>
+      <div class="left1">
+        <a href="#background">Education</a>
+      </div>
+      <div class="left1">
+        <a href="#projects">Projects</a>
+      </div>
+
+    </div>
+
+    <div id="header">
+      <h1>MASHA SHKOLNIK</h1>
+      <p2> * This page is still at work</p2>
+ 
+    <p> A bid fan of coffee and arts from Belarus. 
+    </p>
+
+
+      <p2> Click the button below if you don't know what to do right now: 
+      </p2>
+      <p></p>
+      <button onclick="addRandomGreeting()">CLICK</button>
       <div id="greeting-container">
 
       </div>
       <div id="image">
-        <img src=/images/DSC_0693.jpg>
+        <img src=/images/dLB2k0y9Qms.jpg>
       </div>
-      </div>
+
+
+    <div id="background"> 
+         <h1>Education</h1>
+         <p> I'm studying at the Higher School of Economics in Moscow (Russia).
+             My major is applied Mathematics and Computer Science and minor is Psychology.
+         </p>     
+
+    </div> 
+
+    <div id="projects"> 
+         <h1>Projects</h1>
+         <p> I had a project which aims was making the most realistic vehicle motion 
+             model dependent on different factors using Pyro language and SUMo. 
+             The result of this project is a finished program with the most realistic 
+             vehicle motion model.
+        </p>
+
+        <div id="image">
+        <img src=/images/pr.jpg>
+        </div>
+
+        
+
+    </div> 
+
+
+    <div id="contacts">
+            <a href="https://github.com/mashaashkolnik"><img src="images/gitt.jpg"></a>
+            <a href="mailto:mashaashkolnik@gmail.com"><img src="images/gmgm.jpg"></a>
+            <a href="https://www.instagram.com/mashaashkolnik/"><img src="images/inst.jpg"></a>
+    </div>
+
+    </div> 
+
   </body>
 </html>

@@ -1,20 +1,126 @@
 
+h1{
+    font-size: 4em;
+    color: #009191;
+}
 
-body {background-color:  hsla(205, 53%, 51%, 0.2);}
+p {
+    font-size: 1.1em;
+    color: black;
+}
 
-#content {
+p2 {
+    font-size: 1.5em;
+    color: black;
+}
+
+#header {
   margin-left: auto;
   margin-right: auto;
-  width: 650px;
+  width: 800px;
 }
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #FFDEDE;
+}
+
+#left {
+  float: left;
+  width: 17%;
+  height: 100%;
+  position: fixed;
+  background-color: #FFCDCD;
+  padding-top: calc(calc(100vh - 480px)/2);
+}
+
+.left1 {
+  width: 100%;
+  padding: 20px 0px;
+  max-height: 40px;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 100;
+}
+
+.left1:hover {
+  background-color: rgba(202, 193, 193, 0.815);
+  color: rgb(124, 123, 123);
+}
+
+.left1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.left1 a:hover {
+  color: rgb(124, 123, 123);
+}
+
+
+
+
+#image {
+  width: 20%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#image img {
+    height: auto;
+    width: 400px;
+}
+
+#hse {
+  width: 10%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#hse img {
+    height: 15px;
+    width: auto;
+}
+
+#background {
+  margin-top: 100px;
+  width: 100%;
+  background-color: #FFDEDE;
+}
+
 
 #greeting-container {
   margin-top: 20px;
 }
 
-#image img {
-    height: 400px;
-    width: 600px;
+#contact {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
 }
+
+#contacts {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+}
+
+#contacts img {
+  margin: 30px;
+  width: 50px;
+  height: auto;
+}
+
+
+
 
 
